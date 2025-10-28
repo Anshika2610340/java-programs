@@ -1,0 +1,6 @@
+{
+    // Run Code Runner in the integrated terminal so programs can accept input
+    "code-runner.runInTerminal": true,
+    // Ensure Java debug uses the integrated terminal for stdin
+    "java.debug.settings.console": "integratedTerminal"
+}

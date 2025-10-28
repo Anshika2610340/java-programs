@@ -1,0 +1,11 @@
+package com.company;
+import java.util.scanner;
+public static void main{
+    scanner sc=new scanner(system.in);
+    printf("enter three numbers:");
+    int a=sc.nextint();
+    int b=sc.nextscanner();
+    int c=sc.nextint();
+    int sum=a+b+c;
+    printf("the sum of three numbers is:"+sum);
+}
