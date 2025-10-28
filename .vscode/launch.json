@@ -3,10 +3,11 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch AdditionOfThreeNumbers",
+            "name": "Launch com.company.Percentage",
             "request": "launch",
-            "mainClass": "AdditionOfThreeNumbers",
-            "console": "integratedTerminal"
+            "mainClass": "com.company.Percentage",
+                "console": "integratedTerminal",
+                "cwd": "${workspaceFolder}"
         }
     ]
 }

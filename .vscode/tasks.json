@@ -1,0 +1,39 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "javac: compile Percentage",
+            "type": "shell",
+            "command": "javac",
+            "args": [
+                "com\\company\\Percentage.java"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "java: run com.company.Percentage",
+            "type": "shell",
+            "command": "java",
+            "args": [
+                "com.company.Percentage"
+            ],
+            "dependsOn": "javac: compile Percentage",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared"
+            }
+        }
+    ]
+}
