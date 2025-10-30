@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class percentage {
     public static void main(String[] args) {
          Scanner sc = new Scanner(System.in);
-         System.out.println("enter the marks of the subjects:");
+         System.out.println("enter the marks of the subjects chemistry,maths,physics,cs,english:");
          int physics = sc.nextInt();
          int chemistry = sc.nextInt();
          int maths = sc.nextInt();
