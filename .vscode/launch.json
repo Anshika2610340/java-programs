@@ -3,11 +3,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "kilometertometercode",
+            "request": "launch",
+            "mainClass": "kilometertometercode",
+            "projectName": "javaprograms_e29baf8e"
+        },
+        {
+            "type": "java",
             "name": "Launch com.company.Percentage",
             "request": "launch",
             "mainClass": "com.company.Percentage",
-                "console": "integratedTerminal",
-                "cwd": "${workspaceFolder}"
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
         }
     ]
 }
